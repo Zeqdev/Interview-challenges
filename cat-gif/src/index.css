@@ -11,3 +11,23 @@ body {
 	width: 100%;
 	min-height: 100vh;
 }
+
+.App {
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr;
+}
+
+img {
+	height: 300px;
+	width: 400px;
+}
+
+p {
+	font-size: 1.2em;
+	line-height: 1.5;
+
+	width: 400px;
+
+	margin-left: 4rem;
+}
